@@ -3,7 +3,7 @@ SOLIDWORKS PDM Professional AddIn Debugger Console
 # Advantages
 - You can write to the console.
 - Multi-selection is enabled.
-- No need to debug your explorer.exe or notepad.exe.
+- No need to debug using explorer.exe or notepad.exe.
 # Download 
 Download and compile project.
 # Usage

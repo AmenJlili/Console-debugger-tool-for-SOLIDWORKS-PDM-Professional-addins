@@ -1,4 +1,4 @@
-# PDMAddInDebugger
+# Console debugger for SW PDM API addins
 SOLIDWORKS PDM Professional AddIn Debugger Console
 # Advantages
 - You can write to the console.

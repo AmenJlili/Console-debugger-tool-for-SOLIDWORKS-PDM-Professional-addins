@@ -15,7 +15,7 @@ namespace PDMAddInDebugger
 
             var ConsoleDefaultColor = Console.ForegroundColor ;
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(string.Format("CADSharp LLC - {0} {1}", System.Windows.Forms.Application.ProductName, System.Windows.Forms.Application.ProductVersion));
+            Console.WriteLine(string.Format("CADSharp LLC - {0} {1} - Amen Jlili (amen@cadsharp.com)", System.Windows.Forms.Application.ProductName, System.Windows.Forms.Application.ProductVersion));
             Console.ForegroundColor = ConsoleDefaultColor;
             Console.WriteLine(string.Format("Debugging started at: {0}", DateTime.Now));
             var Dialog = new System.Windows.Forms.OpenFileDialog();
@@ -48,7 +48,6 @@ namespace PDMAddInDebugger
             Dialog.ShowDialog();
             Console.WriteLine("");
             Console.WriteLine("----------------------------------------------"); 
-            Console.WriteLine("Press any key to end...");
             Console.ReadLine();
             Console.WriteLine(string.Format("Debugging ended at: {0}", DateTime.Now));
             Console.ReadKey();

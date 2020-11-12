@@ -1,5 +1,5 @@
 # Console debugger for SW PDM API addins
-SOLIDWORKS PDM Professional AddIn Debugger Console
+SOLIDWORKS PDM Professional Add-In Debugger. 
 # Advantages
 - You can use Console.WriteLine to the console.
 - Multi-selection is enabled.

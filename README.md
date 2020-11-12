@@ -5,6 +5,8 @@ SOLIDWORKS PDM Professional AddIn Debugger Console
 - Multi-selection is enabled.
 - No need to debug using explorer.exe or notepad.exe.
 # Usage
+- Use the compiled binaries from the release page.
+Or
 - Restore packages and build
 - Add binary file (from bin/debug) pathname to your VS project's start with program in the debug tab (if you're using C#) or in the build tab (if you're using VB.NET).
 - (optional) Add the PDM vault view local path as a command argument. 
